@@ -20,9 +20,9 @@ def mse(imageA, imageB):
 def teste_imagens():
     windowRegion = (624,382,822-624+3,524-382+4)
     imagem_screenshot = pyautogui.screenshot(region=windowRegion)
-    imagem_screenshot.save("temp.png")
-    imagem_screenshot = cv2.imread("temp.png")
-    imagem_erro = cv2.imread("erro_esteCodigoJaExiste.png")
+    imagem_screenshot.save("imgs/temp.png")
+    imagem_screenshot = cv2.imread("imgs/temp.png")
+    imagem_erro = cv2.imread("imgs/erro_esteCodigoJaExiste.png")
 
     imagem_screenshot = cv2.cvtColor(imagem_screenshot, cv2.COLOR_BGR2GRAY)
     imagem_erro = cv2.cvtColor(imagem_erro, cv2.COLOR_BGR2GRAY)
@@ -32,9 +32,9 @@ def teste_imagens():
 def teste_imagens_2():
     windowRegion = (105, 233, 956 - 105 + 1, 718 - 233 + 3)
     imagem_screenshot = pyautogui.screenshot(region=windowRegion)
-    imagem_screenshot.save("temp2.png")
-    imagem_screenshot = cv2.imread("temp2.png")
-    imagem_erro = cv2.imread("aviso.png")
+    imagem_screenshot.save("imgs/temp2.png")
+    imagem_screenshot = cv2.imread("imgs/temp2.png")
+    imagem_erro = cv2.imread("imgs/aviso.png")
 
     imagem_screenshot = cv2.cvtColor(imagem_screenshot, cv2.COLOR_BGR2GRAY)
     imagem_erro = cv2.cvtColor(imagem_erro, cv2.COLOR_BGR2GRAY)
@@ -42,6 +42,34 @@ def teste_imagens_2():
     plt.imshow(imagem_screenshot)
     return mse(imagem_screenshot, imagem_erro)
 
+def teste_imagens_3():
+    windowRegion = (208, 679, 341 - 208, 694 - 679)
+    imagem_screenshot = pyautogui.screenshot(region=windowRegion)
+    imagem_screenshot.save("imgs/temp3.png")
+    imagem_screenshot = cv2.imread("imgs/temp3.png")
+    imagem_erro = cv2.imread("imgs/contabilidade.png")
+
+    imagem_screenshot = cv2.cvtColor(imagem_screenshot, cv2.COLOR_BGR2GRAY)
+    imagem_erro = cv2.cvtColor(imagem_erro, cv2.COLOR_BGR2GRAY)
+
+    plt.imshow(imagem_screenshot)
+    return mse(imagem_screenshot, imagem_erro)
+
+def teste_imagens_4():
+    windowRegion = (527, 379, 917 - 527, 526 - 379)
+    imagem_screenshot = pyautogui.screenshot(region=windowRegion)
+    imagem_screenshot.save("imgs/temp4.png")
+    imagem_screenshot = cv2.imread("imgs/temp4.png")
+    imagem_erro = cv2.imread("imgs/aviso_fase2Cadastramento.png")
+
+    imagem_screenshot = cv2.cvtColor(imagem_screenshot, cv2.COLOR_BGR2GRAY)
+    imagem_erro = cv2.cvtColor(imagem_erro, cv2.COLOR_BGR2GRAY)
+
+    plt.imshow(imagem_screenshot)
+    return mse(imagem_screenshot, imagem_erro)
+
+time.sleep(2)
+print(teste_imagens_4())
 # print(teste_imagens_2())
 #
 # time.sleep(2)
