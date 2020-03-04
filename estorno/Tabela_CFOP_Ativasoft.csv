@@ -1,0 +1,567 @@
+CFOP;Categoria;Descricao
+1102;COMPRAS;Compra para comercialização
+1111;COMPRAS;Compra para industrialização de mercadoria recebida anteriormente em consignação industrial
+1113;COMPRAS;Compra para comercialização, de mercadoria recebida anteriormente em consignação mercantil
+1116;COMPRAS;Compra para industrialização ou produção rural originada de encomenda para recebimento futuro
+1117;COMPRAS;Compra para comercialização originada de encomenda para recebimento futuro
+1118;COMPRAS;Compra de mercadoria para comercialização pelo adquirente originário, entregue pelo vendedor remetente ao destinatário, em venda à ordem
+1120;COMPRAS;Compra para industrialização, em venda à ordem, já recebida do vendedor remetente
+1121;COMPRAS;Compra para comercialização, em venda à ordem, já recebida do vendedor remetente
+1122;COMPRAS;Compra para industrialização em que a mercadoria foi remetida pelo fornecedor ao industrializador sem transitar pelo estabelecimento adquirente
+1124;INDUSTRIALIZAÇÃO;Industrialização efetuada por outra empresa
+1125;INDUSTRIALIZAÇÃO;Industrialização efetuada por outra empresa quando a mercadoria remetida para utilização no processo de industrialização não transitou pelo estabelecimento 
+1126;COMPRAS;Compra para utilização na prestação de serviço
+1131;OUTRAS ENTRADAS;Entrada de mercadoria com previsão de posterior ajuste ou fixação de preço, decorrente de operação de ato cooperativo.
+1132;OUTRAS ENTRADAS;Fixação de preço de produção do estabelecimento produtor, inclusive quando remetidas anteriormente com previsão de posterior ajuste ou fixação de preço, em ato cooperativo, para comercialização.
+1135;INDUSTRIALIZAÇÃO;Fixação de preço de produção do estabelecimento produtor, inclusive quando remetidas anteriormente com previsão de posterior ajuste ou fixação de preço, em ato cooperativo, para industrialização.
+1151;TRANSFERÊNCIAS;Transferência para industrialização ou produção rural
+1152;TRANSFERÊNCIAS;Transferência para comercialização
+1153;TRANSFERÊNCIAS;Transferência de energia elétrica para distribuição
+1154;TRANSFERÊNCIAS;Transferência para utilização na prestação de serviço
+1201;DEVOLUÇÕES;Devolução de venda de produção do estabelecimento
+1202;DEVOLUÇÕES;Devolução de venda de mercadoria adquirida ou recebida de terceiros
+1203;DEVOLUÇÕES;Devolução de venda de produção do estabelecimento, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio
+1204;DEVOLUÇÕES;Devolução de venda de mercadoria adquirida ou recebida de terceiros, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio
+1205;OUTRAS ENTRADAS;Anulação de valor relativo à prestação de serviço de comunicação
+1206;OUTRAS ENTRADAS;Anulação de valor relativo à prestação de serviço de transporte
+1207;OUTRAS ENTRADAS;Anulação de valor relativo à venda de energia elétrica
+1208;DEVOLUÇÕES;Devolução de produção do estabelecimento, remetida em transferência
+1209;DEVOLUÇÕES;Devolução de mercadoria adquirida ou recebida de terceiros, remetida em transferência
+1213;DEVOLUÇÕES;Devolução de remessa de produção do estabelecimento com previsão de posterior ajuste ou fixação de preço, em ato cooperativo
+1214;DEVOLUÇÕES;Devolução de fixação de preço de produção do estabelecimento produtor, de ato cooperativo
+1251;COMPRAS;Compra de energia elétrica para distribuição ou comercialização
+1252;COMPRAS;Compra de energia elétrica por estabelecimento industrial
+1253;COMPRAS;Compra de energia elétrica por estabelecimento comercial
+1254;COMPRAS;Compra de energia elétrica por estabelecimento prestador de serviço de transporte
+1255;COMPRAS;Compra de energia elétrica por estabelecimento prestador de serviço de comunicação
+1256;COMPRAS;Compra de energia elétrica por estabelecimento de produtor rural
+1257;COMPRAS;Compra de energia elétrica para consumo por demanda contratada
+1301;COMPRAS;Aquisição de serviço de comunicação para execução de serviço da mesma natureza
+1302;COMPRAS;Aquisição de serviço de comunicação por estabelecimento industrial
+1303;COMPRAS;Aquisição de serviço de comunicação por estabelecimento comercial
+1304;COMPRAS;Aquisição de serviço de comunicação por estabelecimento de prestador de serviço de transporte
+1305;COMPRAS;Aquisição de serviço de comunicação por estabelecimento de geradora ou de distribuidora de energia elétrica
+1306;COMPRAS;Aquisição de serviço de comunicação por estabelecimento de produtor rural
+1351;COMPRAS;Aquisição de serviço de transporte para execução de serviço da mesma natureza
+1352;COMPRAS;Aquisição de serviço de transporte por estabelecimento industrial
+1353;COMPRAS;Aquisição de serviço de transporte por estabelecimento comercial
+1354;COMPRAS;Aquisição de serviço de transporte por estabelecimento de prestador de serviço de comunicação
+1355;COMPRAS;Aquisição de serviço de transporte por estabelecimento de geradora ou de distribuidora de energia elétrica
+1356;COMPRAS;Aquisição de serviço de transporte por estabelecimento de produtor rural
+1360;COMPRAS;Aquisição de serviço de transporte por contribuinte substituto em relação ao serviço de transporte
+1401;COMPRAS;Compra para industrialização ou produção rural em operação com mercadoria sujeita ao regime de substituição tributária
+1403;COMPRAS;Compra para comercialização em operação com mercadoria sujeita ao regime de substituição tributária
+1406;COMPRAS;Compra de bem para o ativo imobilizado cuja mercadoria está sujeita ao regime de substituição tributária
+1407;COMPRAS;Compra de mercadoria para uso ou consumo cuja mercadoria está sujeita ao regime de substituição tributária
+1408;TRANSFERÊNCIAS;Transferência para industrialização ou produção rural em operação com mercadoria sujeita ao regime de substituição tributária
+1409;TRANSFERÊNCIAS;Transferência para comercialização em operação com mercadoria sujeita ao regime de substituição tributária
+1410;DEVOLUÇÕES;Devolução de venda de produção do estabelecimento em operação com produto sujeito ao regime de substituição tributária
+1411;DEVOLUÇÕES;Devolução de venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária
+1414;OUTRAS ENTRADAS;Retorno de produção do estabelecimento, remetida para venda fora do estabelecimento em operação com produto sujeito ao regime de substituição tributária
+1415;OUTRAS ENTRADAS;Retorno de mercadoria adquirida ou recebida de terceiros, remetida para venda fora do estabelecimento em operação com mercadoria sujeita ao regime de substituição tributária
+1451;OUTRAS ENTRADAS;Retorno de animal do estabelecimento produtor
+1452;OUTRAS ENTRADAS;Retorno de insumo não utilizado na produção
+1501;OUTRAS ENTRADAS;Entrada de mercadoria recebida com fim específico de exportação
+1503;DEVOLUÇÕES;Entrada decorrente de devolução de produto remetido com fim específico de exportação, de produção do estabelecimento
+1504;DEVOLUÇÕES;Entrada decorrente de devolução de mercadoria remetida com fim específico de exportação, adquirida ou recebida de terceiros
+1505;DEVOLUÇÕES;Entrada decorrente de devolução simbólica de mercadorias remetidas para formação de lote de exportação, de produtos industrializados ou produzidos pelo próprio estabelecimento.
+1506;DEVOLUÇÕES;Entrada decorrente de devolução simbólica de mercadorias, adquiridas ou recebidas de terceiros, remetidas para formação de lote de exportação.
+1551;COMPRAS;Compra de bem para o ativo imobilizado
+1552;TRANSFERÊNCIAS;Transferência de bem do ativo imobilizado
+1553;DEVOLUÇÕES;Devolução de venda de bem do ativo imobilizado
+1554;OUTRAS ENTRADAS;Retorno de bem do ativo imobilizado remetido para uso fora do estabelecimento
+1555;OUTRAS ENTRADAS;Entrada de bem do ativo imobilizado de terceiro, remetido para uso no estabelecimento
+1556;COMPRAS;Compra de material para uso ou consumo
+1557;TRANSFERÊNCIAS;Transferência de material para uso ou consumo
+1601;TRANSFERÊNCIAS;Recebimento, por transferência, de crédito de ICMS
+1602;TRANSFERÊNCIAS;Recebimento, por transferência, de saldo credor de ICMS de outro estabelecimento da mesma empresa, para compensação de saldo devedor de ICMS
+1603;OUTRAS ENTRADAS;Ressarcimento de ICMS retido por substituição tributária
+1604;OUTRAS ENTRADAS;Lançamento do crédito relativo à compra de bem para o ativo imobilizado
+1605;TRANSFERÊNCIAS;Recebimento, por transferência, de saldo devedor de ICMS de outro estabelecimento da mesma empresa.
+1651;COMPRAS;Compra de combustível ou lubrificante para industrialização subseqüente
+1652;COMPRAS;Compra de combustível ou lubrificante para comercialização
+1653;COMPRAS;Compra de combustível ou lubrificante por consumidor ou usuário final
+1658;TRANSFERÊNCIAS;Transferência de combustível e lubrificante para industrialização
+1659;TRANSFERÊNCIAS;Transferência de combustível e lubrificante para comercialização
+1660;DEVOLUÇÕES;Devolução de venda de combustível ou lubrificante destinado à industrialização subseqüente
+1661;DEVOLUÇÕES;Devolução de venda de combustível ou lubrificante destinado à comercialização
+1662;DEVOLUÇÕES;Devolução de venda de combustível ou lubrificante destinado a consumidor ou usuário final
+1663;OUTRAS ENTRADAS;Entrada de combustível ou lubrificante para armazenagem
+1664;OUTRAS ENTRADAS;Retorno de combustível ou lubrificante remetido para armazenagem
+1901;INDUSTRIALIZAÇÃO;Entrada para industrialização por encomenda
+1902;INDUSTRIALIZAÇÃO;Retorno de mercadoria remetida para industrialização por encomenda
+1903;INDUSTRIALIZAÇÃO;Entrada de mercadoria remetida para industrialização e não aplicada no referido processo
+1904;OUTRAS ENTRADAS;Retorno de remessa para venda fora do estabelecimento
+1905;OUTRAS ENTRADAS;Entrada de mercadoria recebida para depósito em depósito fechado ou armazém geral
+1906;OUTRAS ENTRADAS;Retorno de mercadoria remetida para depósito fechado ou armazém geral
+1907;OUTRAS ENTRADAS;Retorno simbólico de mercadoria remetida para depósito fechado ou armazém geral
+1908;OUTRAS ENTRADAS;Entrada de bem por conta de contrato de comodato
+1909;OUTRAS ENTRADAS;Retorno de bem remetido por conta de contrato de comodato
+1910;OUTRAS ENTRADAS;Entrada de bonificação, doação ou brinde    ( Obs: 50 p/ Merc.Comercialização  e 98 p/ Merc.p/ Consumo )
+1911;OUTRAS ENTRADAS;Entrada de amostra grátis
+1912;OUTRAS ENTRADAS;Entrada de mercadoria ou bem recebido para demonstração
+1913;OUTRAS ENTRADAS;Retorno de mercadoria ou bem remetido para demonstração
+1914;OUTRAS ENTRADAS;Retorno de mercadoria ou bem remetido para exposição ou feira
+1915;OUTRAS ENTRADAS;Entrada de mercadoria ou bem recebido para conserto ou reparo
+1916;OUTRAS ENTRADAS;Retorno de mercadoria ou bem remetido para conserto ou reparo
+1917;OUTRAS ENTRADAS;Entrada de mercadoria recebida em consignação mercantil ou industrial
+1918;DEVOLUÇÕES;Devolução de mercadoria remetida em consignação mercantil ou industrial
+1919;DEVOLUÇÕES;Devol.simbólica de mercadoria vendida ou utilizada em processo industrial, remetida anter.em consignação mercantil ou industrial
+1920;OUTRAS ENTRADAS;Entrada de vasilhame ou sacaria
+1921;OUTRAS ENTRADAS;Retorno de vasilhame ou sacaria
+1922;COMPRAS;Lançamento efetuado a título de simples faturamento decorrente de compra para recebimento futuro
+1923;OUTRAS ENTRADAS;Entrada de mercadoria recebida do vendedor remetente, em venda à ordem
+1924;INDUSTRIALIZAÇÃO;Entrada para industrialização por conta e ordem do adquirente da mercadoria, quando esta não transitar pelo estabelecimento do adquirente
+1925;INDUSTRIALIZAÇÃO;Retorno de mercadoria remetida para industrialização por conta e ordem do adquirente da mercadoria, quando esta não transitar pelo estabelecimento do adquirente
+1926;OUTRAS ENTRADAS;Lançamento efetuado a título de reclassificação de mercadoria decorrente de formação de kit ou de sua desagregação
+1931;OUTRAS ENTRADAS;Lançamento efetuado pelo tomador do serviço de transporte quando a responsabilidade de retenção do imposto for atribuída ao remetente ou alienante da mercadoria, pelo serviço de transporte realizado por transportador autônomo ou por transportador não inscrito na unidade da Federação onde iniciado o serviço.
+1932;COMPRAS;Aquisição de serviço de transporte iniciado em unidade da Federação diversa daquela onde inscrito o prestador.
+1933;COMPRAS;Aquisição de serviço tributado pelo ISSQN
+1949;OUTRAS ENTRADAS;Outra entrada de mercadoria ou prestação de serviço não especificada
+2101;COMPRAS;Compra para industrialização ou produção rural
+2102;COMPRAS;Compra para comercialização
+2111;COMPRAS;Compra para industrialização de mercadoria recebida anteriormente em consignação industrial
+2113;COMPRAS;Compra para comercialização, de mercadoria recebida anteriormente em consignação mercantil
+2116;COMPRAS;Compra para industrialização ou produção rural originada de encomenda para recebimento futuro
+2117;COMPRAS;Compra para comercialização originada de encomenda para recebimento futuro
+2118;COMPRAS;Compra de mercadoria para comercialização pelo adquirente originário, entregue pelo vendedor remetente ao destinatário, em venda à ordem
+2120;COMPRAS;Compra para industrialização, em venda à ordem, já recebida do vendedor remetente
+2121;COMPRAS;Compra para comercialização, em venda à ordem, já recebida do vendedor remetente
+2122;COMPRAS;Compra para industrialização em que a mercadoria foi remetida pelo fornecedor ao industrializador sem transitar pelo estabelecimento adquirente
+2124;INDUSTRIALIZAÇÃO;Industrialização efetuada por outra empresa
+2125;INDUSTRIALIZAÇÃO;Industrialização efetuada por outra empresa quando a mercadoria remetida para utilização no processo de industrialização não transitou pelo estabelecimento 
+2126;COMPRAS;Compra para utilização na prestação de serviço
+2131;OUTRAS ENTRADAS;Entrada de mercadoria com previsão de posterior ajuste ou fixação de preço, decorrente de operação de ato cooperativo.
+2132;OUTRAS ENTRADAS;Fixação de preço de produção do estabelecimento produtor, inclusive quando remetidas anteriormente com previsão de posterior ajuste ou fixação de preço, em ato cooperativo, para comercialização
+2135;INDUSTRIALIZAÇÃO;Fixação de preço de produção do estabelecimento produtor, inclusive quando remetidas anteriormente com previsão de posterior ajuste ou fixação de preço, em ato cooperativo, para industrialização.
+2151;TRANSFERÊNCIAS;Transferência para industrialização ou produção rural
+2152;TRANSFERÊNCIAS;Transferência para comercialização
+2153;TRANSFERÊNCIAS;Transferência de energia elétrica para distribuição
+2154;TRANSFERÊNCIAS;Transferência para utilização na prestação de serviço
+2201;DEVOLUÇÕES;Devolução de venda de produção do estabelecimento
+2202;DEVOLUÇÕES;Devolução de venda de mercadoria adquirida ou recebida de terceiros
+2203;DEVOLUÇÕES;Devolução de venda de produção do estabelecimento, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio
+2204;DEVOLUÇÕES;Devolução de venda de mercadoria adquirida ou recebida de terceiros, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio
+2205;OUTRAS ENTRADAS;Anulação de valor relativo à prestação de serviço de comunicação
+2206;OUTRAS ENTRADAS;Anulação de valor relativo à prestação de serviço de transporte
+2207;OUTRAS ENTRADAS;Anulação de valor relativo à venda de energia elétrica
+2208;DEVOLUÇÕES;Devolução de produção do estabelecimento, remetida em transferência
+2209;DEVOLUÇÕES;Devolução de mercadoria adquirida ou recebida de terceiros, remetida em transferência
+2213;DEVOLUÇÕES;Devolução de remessa de produção do estabelecimento com previsão de posterior ajuste ou fixação de preço, em ato cooperativo.
+2214;DEVOLUÇÕES;Devolução de fixação de preço de produção do estabelecimento produtor, de ato cooperativo
+2251;COMPRAS;Compra de energia elétrica para distribuição ou comercialização
+2252;COMPRAS;Compra de energia elétrica por estabelecimento industrial
+2253;COMPRAS;Compra de energia elétrica por estabelecimento comercial
+2254;COMPRAS;Compra de energia elétrica por estabelecimento prestador de serviço de transporte
+2255;COMPRAS;Compra de energia elétrica por estabelecimento prestador de serviço de comunicação
+2256;COMPRAS;Compra de energia elétrica por estabelecimento de produtor rural
+2257;COMPRAS;Compra de energia elétrica para consumo por demanda contratada
+2301;COMPRAS;Aquisição de serviço de comunicação para execução de serviço da mesma natureza
+2302;COMPRAS;Aquisição de serviço de comunicação por estabelecimento industrial
+2303;COMPRAS;Aquisição de serviço de comunicação por estabelecimento comercial
+2304;COMPRAS;Aquisição de serviço de comunicação por estabelecimento de prestador de serviço de transporte
+2305;COMPRAS;Aquisição de serviço de comunicação por estabelecimento de geradora ou de distribuidora de energia elétrica
+2306;COMPRAS;Aquisição de serviço de comunicação por estabelecimento de produtor rural
+2351;COMPRAS;Aquisição de serviço de transporte para execução de serviço da mesma natureza
+2352;COMPRAS;Aquisição de serviço de transporte por estabelecimento industrial
+2353;COMPRAS;Aquisição de serviço de transporte por estabelecimento comercial
+2354;COMPRAS;Aquisição de serviço de transporte por estabelecimento de prestador de serviço de comunicação
+2355;COMPRAS;Aquisição de serviço de transporte por estabelecimento de geradora ou de distribuidora de energia elétrica
+2356;COMPRAS;Aquisição de serviço de transporte por estabelecimento de produtor rural
+2401;COMPRAS;Compra para industrialização ou produção rural em operação com mercadoria sujeita ao regime de substituição tributária
+2403;COMPRAS;Compra para comercialização em operação com mercadoria sujeita ao regime de substituição tributária
+2406;COMPRAS;Compra de bem para o ativo imobilizado cuja mercadoria está sujeita ao regime de substituição tributária
+2407;COMPRAS;Compra de mercadoria para uso ou consumo cuja mercadoria está sujeita ao regime de substituição tributária
+2408;TRANSFERÊNCIAS;Transferência para industrialização ou produção rural em operação com mercadoria sujeita ao regime de substituição tributária
+2409;TRANSFERÊNCIAS;Transferência para comercialização em operação com mercadoria sujeita ao regime de substituição tributária
+2410;DEVOLUÇÕES;Devolução de venda de produção do estabelecimento em operação com produto sujeito ao regime de substituição tributária
+2411;DEVOLUÇÕES;Devolução de venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária
+2414;OUTRAS ENTRADAS;Retorno de produção do estabelecimento, remetida para venda fora do estabelecimento em operação com produto sujeito ao regime de substituição tributária
+2415;OUTRAS ENTRADAS;Retorno de mercadoria adquirida ou recebida de terceiros, remetida para venda fora do estabelecimento em operação com mercadoria sujeita ao regime de substituição tributária
+2501;OUTRAS ENTRADAS;Entrada de mercadoria recebida com fim específico de exportação
+2503;DEVOLUÇÕES;Entrada decorrente de devolução de produto remetido com fim específico de exportação, de produção do estabelecimento
+2504;DEVOLUÇÕES;Entrada decorrente de devolução de mercadoria remetida com fim específico de exportação, adquirida ou recebida de terceiros
+2505;DEVOLUÇÕES;Entrada decorrente de devolução simbólica de mercadorias remetidas para formação de lote de exportação, de produtos industrializados ou produzidos pelo próprio estabelecimento.
+2506;DEVOLUÇÕES;Entrada decorrente de devolução simbólica de mercadorias, adquiridas ou recebidas de terceiros, remetidas para formação de lote de exportação.
+2551;COMPRAS;Compra de bem para o ativo imobilizado
+2552;TRANSFERÊNCIAS;Transferência de bem do ativo imobilizado
+2553;DEVOLUÇÕES;Devolução de venda de bem do ativo imobilizado
+2554;OUTRAS ENTRADAS;Retorno de bem do ativo imobilizado remetido para uso fora do estabelecimento
+2555;OUTRAS ENTRADAS;Entrada de bem do ativo imobilizado de terceiro, remetido para uso no estabelecimento
+2556;COMPRAS;Compra de material para uso ou consumo
+2557;TRANSFERÊNCIAS;Transferência de material para uso ou consumo
+2603;OUTRAS ENTRADAS;Ressarcimento de ICMS retido por substituição tributária
+2651;COMPRAS;Compra de combustível ou lubrificante para industrialização subseqüente
+2652;COMPRAS;Compra de combustível ou lubrificante para comercialização
+2653;COMPRAS;Compra de combustível ou lubrificante por consumidor ou usuário final
+2658;TRANSFERÊNCIAS;Transferência de combustível e lubrificante para industrialização
+2659;TRANSFERÊNCIAS;Transferência de combustível e lubrificante para comercialização
+2660;DEVOLUÇÕES;Devolução de venda de combustível ou lubrificante destinado à industrialização subseqüente
+2661;DEVOLUÇÕES;Devolução de venda de combustível ou lubrificante destinado à comercialização
+2662;DEVOLUÇÕES;Devolução de venda de combustível ou lubrificante destinado a consumidor ou usuário final
+2663;OUTRAS ENTRADAS;Entrada de combustível ou lubrificante para armazenagem
+2664;OUTRAS ENTRADAS;Retorno de combustível ou lubrificante remetido para armazenagem
+2901;INDUSTRIALIZAÇÃO;Entrada para industrialização por encomenda
+2902;INDUSTRIALIZAÇÃO;Retorno de mercadoria remetida para industrialização por encomenda
+2903;INDUSTRIALIZAÇÃO;Entrada de mercadoria remetida para industrialização e não aplicada no referido processo
+2904;OUTRAS ENTRADAS;Retorno de remessa para venda fora do estabelecimento
+2905;OUTRAS ENTRADAS;Entrada de mercadoria recebida para depósito em depósito fechado ou armazém geral
+2906;OUTRAS ENTRADAS;Retorno de mercadoria remetida para depósito fechado ou armazém geral
+2907;OUTRAS ENTRADAS;Retorno simbólico de mercadoria remetida para depósito fechado ou armazém geral
+2908;OUTRAS ENTRADAS;Entrada de bem por conta de contrato de comodato
+2909;OUTRAS ENTRADAS;Retorno de bem remetido por conta de contrato de comodato
+2910;OUTRAS ENTRADAS;Entrada de bonificação, doação ou brinde    ( Obs: 50 p/ Merc.Comercialização  e 98 p/ Merc.p/ Consumo )
+2911;OUTRAS ENTRADAS;Entrada de amostra grátis
+2912;OUTRAS ENTRADAS;Entrada de mercadoria ou bem recebido para demonstração
+2913;OUTRAS ENTRADAS;Retorno de mercadoria ou bem remetido para demonstração
+2914;OUTRAS ENTRADAS;Retorno de mercadoria ou bem remetido para exposição ou feira
+2915;OUTRAS ENTRADAS;Entrada de mercadoria ou bem recebido para conserto ou reparo
+2916;OUTRAS ENTRADAS;Retorno de mercadoria ou bem remetido para conserto ou reparo
+2917;OUTRAS ENTRADAS;Entrada de mercadoria recebida em consignação mercantil ou industrial
+2918;DEVOLUÇÕES;Devolução de mercadoria remetida em consignação mercantil ou industrial
+2919;DEVOLUÇÕES;Devol.simbólica de mercadoria vendida ou utilizada em processo industrial, remetida anter.em consignação mercantil ou industrial
+2920;OUTRAS ENTRADAS;Entrada de vasilhame ou sacaria
+2921;OUTRAS ENTRADAS;Retorno de vasilhame ou sacaria
+2922;COMPRAS;Lançamento efetuado a título de simples faturamento decorrente de compra para recebimento futuro
+2923;OUTRAS ENTRADAS;Entrada de mercadoria recebida do vendedor remetente, em venda à ordem
+2924;INDUSTRIALIZAÇÃO;Entrada para industrialização por conta e ordem do adquirente da mercadoria, quando esta não transitar pelo estabelecimento do adquirente
+2925;INDUSTRIALIZAÇÃO;Retorno de mercadoria remetida para industrialização por conta e ordem do adquirente da mercadoria, quando esta não transitar pelo estabelecimento do adquirente
+2931;OUTRAS ENTRADAS;Lançamento efetuado pelo tomador do serviço de transporte quando a responsabilidade de retenção do imposto for atribuída ao remetente ou alienante da mercadoria, pelo serviço de transporte realizado por transportador autônomo ou por transportador não inscrito na unidade da Federação onde iniciado o serviço.
+2932;COMPRAS;Aquisição de serviço de transporte iniciado em unidade da Federação diversa daquela onde inscrito o prestador.
+2933;COMPRAS;Aquisição de serviço tributado pelo ISSQN
+2949;OUTRAS ENTRADAS;Outra entrada de mercadoria ou prestação de serviço não especificada
+3101;COMPRAS;Compra para industrialização ou produção rural
+3102;COMPRAS;Compra para comercialização
+3126;COMPRAS;Compra para utilização na prestação de serviço
+3127;COMPRAS;Compra para industrialização sob o regime de drawback
+3201;DEVOLUÇÕES;Devolução de venda de produção do estabelecimento
+3202;DEVOLUÇÕES;Devolução de venda de mercadoria adquirida ou recebida de terceiros
+3205;OUTRAS ENTRADAS;Anulação de valor relativo à prestação de serviço de comunicação
+3206;OUTRAS ENTRADAS;Anulação de valor relativo à prestação de serviço de transporte
+3207;OUTRAS ENTRADAS;Anulação de valor relativo à venda de energia elétrica
+3211;DEVOLUÇÕES;Devolução de venda de produção do estabelecimento sob o regime de drawback
+3251;COMPRAS;Compra de energia elétrica para distribuição ou comercialização
+3301;COMPRAS;Aquisição de serviço de comunicação para execução de serviço da mesma natureza
+3351;COMPRAS;Aquisição de serviço de transporte para execução de serviço da mesma natureza
+3352;COMPRAS;Aquisição de serviço de transporte por estabelecimento industrial
+3353;COMPRAS;Aquisição de serviço de transporte por estabelecimento comercial
+3354;COMPRAS;Aquisição de serviço de transporte por estabelecimento de prestador de serviço de comunicação
+3355;COMPRAS;Aquisição de serviço de transporte por estabelecimento de geradora ou de distribuidora de energia elétrica
+3356;COMPRAS;Aquisição de serviço de transporte por estabelecimento de produtor rural
+3503;DEVOLUÇÕES;Entrada decorrente de devolução de produto remetido com fim específico de exportação, de produção do estabelecimento
+3551;COMPRAS;Compra de bem para o ativo imobilizado
+3553;DEVOLUÇÕES;Devolução de venda de bem do ativo imobilizado
+3556;COMPRAS;Compra de material para uso ou consumo
+3651;COMPRAS;Compra de combustível ou lubrificante para industrialização subseqüente
+3652;COMPRAS;Compra de combustível ou lubrificante para comercialização
+3653;COMPRAS;Compra de combustível ou lubrificante por consumidor ou usuário final
+3930;OUTRAS ENTRADAS;Lançamento efetuado a título de entrada de bem sob amparo de regime especial aduaneiro de admissão temporária
+3949;OUTRAS ENTRADAS;Outra entrada de mercadoria ou prestação de serviço não especificada
+5101;VENDAS;Venda de produção do estabelecimento
+5102;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros
+5103;VENDAS;Venda de produção do estabelecimento, efetuada fora do estabelecimento
+5104;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros, efetuada fora do estabelecimento
+5105;VENDAS;Venda de produção do estabelecimento que não deva por ele transitar
+5106;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar
+5109;VENDAS;Venda de produção do estabelecimento, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio
+5110;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio
+5111;VENDAS;Venda de produção do estabelecimento remetida anteriormente em consignação industrial
+5112;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação industrial
+5113;VENDAS;Venda de produção do estabelecimento remetida anteriormente em consignação mercantil
+5114;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação mercantil
+5115;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros, recebida anteriormente em consignação mercantil
+5116;VENDAS;Venda de produção do estabelecimento originada de encomenda para entrega futura
+5117;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros, originada de encomenda para entrega futura
+5118;VENDAS;Venda de produção do estabelecimento entregue ao destinatário por conta e ordem do adquirente originário, em venda à ordem
+5119;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário por conta e ordem do adquirente originário, em venda à ordem
+5120;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário pelo vendedor remetente, em venda à ordem
+5122;VENDAS;Venda de produção do estabelecimento remetida para industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente
+5123;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros remetida para industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente
+5124;INDUSTRIALIZAÇÃO;Industrialização efetuada para outra empresa
+5125;INDUSTRIALIZAÇÃO;Industrialização efetuada para outra empresa quando a mercadoria recebida para utilização no processo de industrialização não transitar pelo estabelecimento adquirente da mercadoria
+5131;INDUSTRIALIZAÇÃO;Remessa de produção do estabelecimento, com previsão de posterior ajuste ou fixação de preço, de ato cooperativo
+5132;INDUSTRIALIZAÇÃO;Fixação de preço de produção do estabelecimento, inclusive quando remetidas anteriormente com previsão de posterior ajuste ou fixação de preço de ato cooperativo.
+5150;TRANSFERÊNCIAS;TRANSFERÊNCIAS DE PRODUÇÃO PRÓPRIA OU DE TERCEIROS
+5151;TRANSFERÊNCIAS;Transferência de produção do estabelecimento
+5152;TRANSFERÊNCIAS;Transferência de mercadoria adquirida ou recebida de terceiros
+5153;TRANSFERÊNCIAS;Transferência de energia elétrica
+5155;TRANSFERÊNCIAS;Transferência de produção do estabelecimento, que não deva por ele transitar
+5156;TRANSFERÊNCIAS;Transferência de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar
+5201;DEVOLUÇÕES;Devolução de compra para industrialização ou produção rural
+5202;DEVOLUÇÕES;Devolução de compra para comercialização
+5205;OUTRAS SAIDAS;Anulação de valor relativo a aquisição de serviço de comunicação
+5206;OUTRAS SAIDAS;Anulação de valor relativo a aquisição de serviço de transporte
+5207;OUTRAS SAIDAS;Anulação de valor relativo à compra de energia elétrica
+5208;DEVOLUÇÕES;Devolução de mercadoria recebida em transferência para industrialização ou produção rural
+5209;DEVOLUÇÕES;Devolução de mercadoria recebida em transferência para comercialização
+5210;DEVOLUÇÕES;Devolução de compra para utilização na prestação de serviço
+5213;DEVOLUÇÕES;Devolução de entrada de mercadoria com previsão de posterior ajuste ou fixação de preço, em ato cooperativo
+5214;DEVOLUÇÕES;Devolução de fixação de preço de produção do estabelecimento produtor, inclusive quando remetidas anteriormente com previsão de posterior ajuste ou fixação de preço, de ato cooperativo, para comercialização.
+5215;DEVOLUÇÕES;Devolução de fixação de preço de produção do estabelecimento produtor, inclusive quando remetidas anteriormente com previsão de posterior ajuste ou fixação de preço, de ato cooperativo, para industrialização.
+5251;VENDAS;Venda de energia elétrica para distribuição ou comercialização
+5252;VENDAS;Venda de energia elétrica para estabelecimento industrial
+5253;VENDAS;Venda de energia elétrica para estabelecimento comercial
+5254;VENDAS;Venda de energia elétrica para estabelecimento prestador de serviço de transporte
+5255;VENDAS;Venda de energia elétrica para estabelecimento prestador de serviço de comunicação
+5256;VENDAS;Venda de energia elétrica para estabelecimento de produtor rural
+5257;VENDAS;Venda de energia elétrica para consumo por demanda contratada
+5258;VENDAS;Venda de energia elétrica a não contribuinte
+5301;VENDAS;Prestação de serviço de comunicação para execução de serviço da mesma natureza
+5302;VENDAS;Prestação de serviço de comunicação a estabelecimento industrial
+5303;VENDAS;Prestação de serviço de comunicação a estabelecimento comercial
+5304;VENDAS;Prestação de serviço de comunicação a estabelecimento de prestador de serviço de transporte
+5305;VENDAS;Prestação de serviço de comunicação a estabelecimento de geradora ou de distribuidora de energia elétrica
+5306;VENDAS;Prestação de serviço de comunicação a estabelecimento de produtor rural
+5307;VENDAS;Prestação de serviço de comunicação a não contribuinte
+5351;VENDAS;Prestação de serviço de transporte para execução de serviço da mesma natureza
+5352;VENDAS;Prestação de serviço de transporte a estabelecimento industrial
+5353;VENDAS;Prestação de serviço de transporte a estabelecimento comercial
+5354;VENDAS;Prestação de serviço de transporte a estabelecimento de prestador de serviço de comunicação
+5355;VENDAS;Prestação de serviço de transporte a estabelecimento de geradora ou de distribuidora de energia elétrica
+5356;VENDAS;Prestação de serviço de transporte a estabelecimento de produtor rural
+5357;VENDAS;Prestação de serviço de transporte a não contribuinte
+5359;VENDAS;Prestação de serviço de transporte a contribuinte ou a não contribuinte quando a mercadoria transportada está dispensada de emissão de nota fiscal.
+5360;VENDAS;Prestação de serviço de transporte a contribuinte substituto em relação ao serviço de transporte
+5401;VENDAS;Venda de produção do estabelecimento em operação com produto sujeito ao regime de substituição tributária, na condição de contribuinte substituto
+5402;VENDAS;Venda de produção do estabelecimento de produto sujeito ao regime de substituição tributária, em operação entre contribuintes substitutos do mesmo produto
+5403;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária, na condição de contribuinte substituto
+5405;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária, na condição de contribuinte substituído
+5408;TRANSFERÊNCIAS;Transferência de produção do estabelecimento em operação com produto sujeito ao regime de substituição tributária
+5409;TRANSFERÊNCIAS;Transferência de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária
+5410;DEVOLUÇÕES;Devolução de compra para industrialização ou produção rural em operação com mercadoria sujeita ao regime de substituição tributária
+5411;DEVOLUÇÕES;Devolução de compra para comercialização em operação com mercadoria sujeita ao regime de substituição tributária
+5412;DEVOLUÇÕES;Devolução de bem do ativo imobilizado, em operação com mercadoria sujeita ao regime de substituição tributária
+5413;DEVOLUÇÕES;Devolução de mercadoria destinada ao uso ou consumo, em operação com mercadoria sujeita ao regime de substituição tributária
+5414;OUTRAS SAIDAS;Remessa de produção do estabelecimento para venda fora do estabelecimento em operação com produto sujeito ao regime de substituição tributária
+5415;OUTRAS SAIDAS;Remessa de mercadoria adquirida ou recebida de terceiros para venda fora do estabelecimento, em operação com mercadoria sujeita ao regime de substituição tributária
+5451;OUTRAS SAIDAS;Remessa de animal e de insumo para estabelecimento produtor
+5501;OUTRAS SAIDAS;Remessa de produção do estabelecimento, com fim específico de exportação
+5502;OUTRAS SAIDAS;Remessa de mercadoria adquirida ou recebida de terceiros, com fim específico de exportação
+5503;DEVOLUÇÕES;Devolução de mercadoria recebida com fim específico de exportação
+5504;OUTRAS SAIDAS;Remessa de mercadorias para formação de lote de exportação, de produtos industrializados ou produzidos pelo próprio estabelecimento.
+5505;OUTRAS SAIDAS;Remessa de mercadorias, adquiridas ou recebidas de terceiros, para formação de lote de exportação
+5551;VENDAS;Venda de bem do ativo imobilizado
+5552;TRANSFERÊNCIAS;Transferência de bem do ativo imobilizado
+5553;DEVOLUÇÕES;Devolução de compra de bem para o ativo imobilizado
+5554;OUTRAS SAIDAS;Remessa de bem do ativo imobilizado para uso fora do estabelecimento
+5555;DEVOLUÇÕES;Devolução de bem do ativo imobilizado de terceiro, recebido para uso no estabelecimento
+5556;DEVOLUÇÕES;Devolução de compra de material de uso ou consumo
+5557;TRANSFERÊNCIAS;Transferência de material de uso ou consumo
+5601;TRANSFERÊNCIAS;Transferência de crédito de ICMS acumulado
+5602;TRANSFERÊNCIAS;Transferência de saldo credor de ICMS para outro estabelecimento da mesma empresa, destinado à compensação de saldo devedor de ICMS
+5603;OUTRAS SAIDAS;Ressarcimento de ICMS retido por substituição tributária
+5605;TRANSFERÊNCIAS;Transferência de saldo devedor de ICMS de outro estabelecimento da mesma empresa.
+5606;OUTRAS SAIDAS;Utilização de saldo credor de ICMS para extinção por compensação de débitos fiscais.
+5651;VENDAS;Venda de combustível ou lubrificante de produção do estabelecimento destinado à industrialização subseqüente
+5652;VENDAS;Venda de combustível ou lubrificante de produção do estabelecimento destinado à comercialização
+5653;VENDAS;Venda de combustível ou lubrificante de produção do estabelecimento destinado a consumidor ou usuário final
+5654;VENDAS;Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado à industrialização subseqüente
+5655;VENDAS;Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado à comercialização
+5656;VENDAS;Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado a consumidor ou usuário final
+5657;OUTRAS SAIDAS;Remessa de combustível ou lubrificante adquirido ou recebido de terceiros para venda fora do estabelecimento
+5658;TRANSFERÊNCIAS;Transferência de combustível ou lubrificante de produção do estabelecimento 
+5659;TRANSFERÊNCIAS;Transferência de combustível ou lubrificante adquirido ou recebido de terceiro
+5660;DEVOLUÇÕES;Devolução de compra de combustível ou lubrificante adquirido para industrialização subseqüente
+5661;DEVOLUÇÕES;Devolução de compra de combustível ou lubrificante adquirido para comercialização
+5662;DEVOLUÇÕES;Devolução de compra de combustível ou lubrificante adquirido por consumidor ou usuário final
+5663;OUTRAS SAIDAS;Remessa para armazenagem de combustível ou lubrificante
+5664;OUTRAS SAIDAS;Retorno de combustível ou lubrificante recebido para armazenagem
+5665;OUTRAS SAIDAS;Retorno simbólico de combustível ou lubrificante recebido para armazenagem
+5666;OUTRAS SAIDAS;Remessa por conta e ordem de terceiros de combustível ou lubrificante recebido para armazenagem
+5667;VENDAS;Venda de combustível ou lubrificante a consumidor ou usuário final estabelecido em outra unidade da Federação
+5901;INDUSTRIALIZAÇÃO;Remessa para industrialização por encomenda
+5902;INDUSTRIALIZAÇÃO;Retorno de mercadoria utilizada na industrialização por encomenda
+5903;INDUSTRIALIZAÇÃO;Retorno de mercadoria recebida para industrialização e não aplicada no referido processo
+5904;OUTRAS SAIDAS;Remessa para venda fora do estabelecimento
+5905;OUTRAS SAIDAS;Remessa para depósito fechado ou armazém geral
+5906;OUTRAS SAIDAS;Retorno de mercadoria depositada em depósito fechado ou armazém geral
+5907;OUTRAS SAIDAS;Retorno simbólico de mercadoria depositada em depósito fechado ou armazém geral
+5908;OUTRAS SAIDAS;Remessa de bem por conta de contrato de comodato
+5909;OUTRAS SAIDAS;Retorno de bem recebido por conta de contrato de comodato
+5910;OUTRAS SAIDAS;Remessa em bonificação, doação ou brinde         ( Não é Receita que só acontecerá com a Venda)
+5911;OUTRAS SAIDAS;Remessa de amostra grátis
+5912;OUTRAS SAIDAS;Remessa de mercadoria ou bem para demonstração
+5913;OUTRAS SAIDAS;Retorno de mercadoria ou bem recebido para demonstração
+5914;OUTRAS SAIDAS;Remessa de mercadoria ou bem para exposição ou feira
+5915;OUTRAS SAIDAS;Remessa de mercadoria ou bem para conserto ou reparo
+5916;OUTRAS SAIDAS;Retorno de mercadoria ou bem recebido para conserto ou reparo
+5917;OUTRAS SAIDAS;Remessa de mercadoria em consignação mercantil ou industrial
+5918;DEVOLUÇÕES;Devolução de mercadoria recebida em consignação mercantil ou industrial
+5919;DEVOLUÇÕES;Devolução simbólica de mercadoria vendida ou utilizada em processo industrial, recebida anteriormente em consignação mercantil ou industrial
+5920;OUTRAS SAIDAS;Remessa de vasilhame ou sacaria
+5921;DEVOLUÇÕES;Devolução de vasilhame ou sacaria
+5922;VENDAS;Lançamento efetuado a título de simples faturamento decorrente de venda para entrega futura
+5923;OUTRAS SAIDAS;Remessa de mercadoria por conta e ordem de terceiros, em venda à ordem
+5924;OUTRAS SAIDAS;Remessa para industrialização por conta e ordem do adquirente da mercadoria, quando esta não transitar pelo estabelecimento do adquirente
+5925;INDUSTRIALIZAÇÃO;Retorno de mercadoria recebida para industrialização por conta e ordem do adquirente da mercadoria, quando aquela não transitar pelo estabelecimento do adquirente
+5926;OUTRAS SAIDAS;Lançamento efetuado a título de reclassificação de mercadoria decorrente de formação de kit ou de sua desagregação
+5927;OUTRAS SAIDAS;Lançamento efetuado a título de baixa de estoque decorrente de perda, roubo ou deterioração
+5928;OUTRAS SAIDAS;Lançamento efetuado a título de baixa de estoque decorrente do encerramento da atividade da empresa
+5929;OUTRAS SAIDAS;Lançamento efetuado em decorrência de emissão de documento fiscal relativo a operação ou prestação também registrada em equipamento Emissor de Cupom Fiscal - ECF
+5931;OUTRAS SAIDAS;Lançamento efetuado em decorrência da responsabilidade de retenção do imposto por substituição tributária, atribuída ao remetente ou alienante da mercadoria, pelo serviço de transporte realizado por transportador autônomo ou por transportador não inscrito na unidade da Federação onde iniciado o serviço
+5932;VENDAS;Prestação de serviço de transporte iniciada em unidade da Federação diversa daquela onde inscrito o prestador
+5933;VENDAS;Prestação de serviço tributado pelo ISSQN
+5949;OUTRAS SAIDAS;Outra saída de mercadoria ou prestação de serviço não especificado
+6101;VENDAS;Venda de produção do estabelecimento
+6102;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros
+6103;VENDAS;Venda de produção do estabelecimento, efetuada fora do estabelecimento
+6104;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros, efetuada fora do estabelecimento
+6105;VENDAS;Venda de produção do estabelecimento que não deva por ele transitar
+6106;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar
+6107;VENDAS;Venda de produção do estabelecimento, destinada a não contribuinte
+6108;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros, destinada a não contribuinte
+6109;VENDAS;Venda de produção do estabelecimento, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio
+6110;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros, destinada à Zona Franca de Manaus ou Áreas de Livre Comércio
+6111;VENDAS;Venda de produção do estabelecimento remetida anteriormente em consignação industrial
+6112;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação industrial
+6113;VENDAS;Venda de produção do estabelecimento remetida anteriormente em consignação mercantil
+6114;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação mercantil
+6115;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros, recebida anteriormente em consignação mercantil
+6116;VENDAS;Venda de produção do estabelecimento originada de encomenda para entrega futura
+6117;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros, originada de encomenda para entrega futura
+6118;VENDAS;Venda de produção do estabelecimento entregue ao destinatário por conta e ordem do adquirente originário, em venda à ordem
+6119;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário por conta e ordem do adquirente originário, em venda à ordem
+6120;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário pelo vendedor remetente, em venda à ordem
+6122;VENDAS;Venda de produção do estabelecimento remetida para industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente
+6123;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros remetida para industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente
+6124;INDUSTRIALIZAÇÃO;Industrialização efetuada para outra empresa
+6125;INDUSTRIALIZAÇÃO;Industrialização efetuada para outra empresa quando a mercadoria recebida para utilização no processo de industrialização não transitar pelo estabelecimento adquirente da mercadoria
+6131;INDUSTRIALIZAÇÃO;Remessa de produção de estabelecimento, com previsão de posterior ajuste ou fixação de preço de ato cooperativo.
+6132;INDUSTRIALIZAÇÃO;Fixação de preço de produção do estabelecimento, inclusive quando remetidas anteriormente com previsão de posterior ajuste ou fixação de preço ou fixação de preço de ato cooperativo
+6150;TRANSFERÊNCIAS;TRANSFERÊNCIAS DE PRODUÇÃO PRÓPRIA OU DE TERCEIROS
+6151;TRANSFERÊNCIAS;Transferência de produção do estabelecimento
+6152;TRANSFERÊNCIAS;Transferência de mercadoria adquirida ou recebida de terceiros
+6153;TRANSFERÊNCIAS;Transferência de energia elétrica
+6155;TRANSFERÊNCIAS;Transferência de produção do estabelecimento, que não deva por ele transitar
+6156;TRANSFERÊNCIAS;Transferência de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar
+6201;DEVOLUÇÕES;Devolução de compra para industrialização ou produção rural
+6202;DEVOLUÇÕES;Devolução de compra para comercialização
+6205;OUTRAS SAIDAS;Anulação de valor relativo a aquisição de serviço de comunicação
+6206;OUTRAS SAIDAS;Anulação de valor relativo a aquisição de serviço de transporte
+6207;OUTRAS SAIDAS;Anulação de valor relativo à compra de energia elétrica
+6208;DEVOLUÇÕES;Devolução de mercadoria recebida em transferência para industrialização ou produção rural
+6209;DEVOLUÇÕES;Devolução de mercadoria recebida em transferência para comercialização
+6210;DEVOLUÇÕES;Devolução de compra para utilização na prestação de serviço
+6213;DEVOLUÇÕES;Devolução de entrada de mercadoria com previsão de posterior ajuste ou fixação de preço, em ato cooperativo
+6214;DEVOLUÇÕES;Devolução de fixação de preço de produção do estabelecimento produtor, inclusive quando remetidas anteriormente com previsão de posterior ajuste ou fixação de preço, de ato cooperativo, para comercialização.
+6215;DEVOLUÇÕES;Devolução de fixação de preço de produção do estabelecimento produtor, inclusive quando remetidas anteriormente com previsão de posterior ajuste ou fixação de preço, de ato cooperativo para industrialização.
+6251;VENDAS;Venda de energia elétrica para distribuição ou comercialização
+6252;VENDAS;Venda de energia elétrica para estabelecimento industrial
+6253;VENDAS;Venda de energia elétrica para estabelecimento comercial
+6254;VENDAS;Venda de energia elétrica para estabelecimento prestador de serviço de transporte
+6255;VENDAS;Venda de energia elétrica para estabelecimento prestador de serviço de comunicação
+6256;VENDAS;Venda de energia elétrica para estabelecimento de produtor rural
+6257;VENDAS;Venda de energia elétrica para consumo por demanda contratada
+6258;VENDAS;Venda de energia elétrica a não contribuinte
+6301;VENDAS;Prestação de serviço de comunicação para execução de serviço da mesma natureza
+6302;VENDAS;Prestação de serviço de comunicação a estabelecimento industrial
+6303;VENDAS;Prestação de serviço de comunicação a estabelecimento comercial
+6304;VENDAS;Prestação de serviço de comunicação a estabelecimento de prestador de serviço de transporte
+6305;VENDAS;Prestação de serviço de comunicação a estabelecimento de geradora ou de distribuidora de energia elétrica
+6306;VENDAS;Prestação de serviço de comunicação a estabelecimento de produtor rural
+6307;VENDAS;Prestação de serviço de comunicação a não contribuinte
+6351;VENDAS;Prestação de serviço de transporte para execução de serviço da mesma natureza
+6352;VENDAS;Prestação de serviço de transporte a estabelecimento industrial
+6353;VENDAS;Prestação de serviço de transporte a estabelecimento comercial
+6354;VENDAS;Prestação de serviço de transporte a estabelecimento de prestador de serviço de comunicação
+6355;VENDAS;Prestação de serviço de transporte a estabelecimento de geradora ou de distribuidora de energia elétrica
+6356;VENDAS;Prestação de serviço de transporte a estabelecimento de produtor rural
+6357;VENDAS;Prestação de serviço de transporte a não contribuinte
+6359;VENDAS;Prestação de serviço de transporte a contribuinte ou a não contribuinte quando a mercadoria transportada está dispensada de emissão de nota fiscal.
+6360;VENDAS;Prestação de serviço de transporte a contribuinte substituto em relação ao serviço de transporte
+6401;VENDAS;Venda de produção do estabelecimento em operação com produto sujeito ao regime de substituição tributária, na condição de contribuinte substituto
+6402;VENDAS;Venda de produção do estabelecimento de produto sujeito ao regime de substituição tributária, em operação entre contribuintes substitutos do mesmo produto
+6403;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária, na condição de contribuinte substituto
+6404;VENDAS;Venda de mercadoria sujeita ao regime de substituição tributária, cujo imposto já tenha sido retido anteriormente
+6408;TRANSFERÊNCIAS;Transferência de produção do estabelecimento em operação com produto sujeito ao regime de substituição tributária
+6409;TRANSFERÊNCIAS;Transferência de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita ao regime de substituição tributária
+6410;DEVOLUÇÕES;Devolução de compra para industrialização ou produção rural em operação com mercadoria sujeita ao regime de substituição tributária
+6411;DEVOLUÇÕES;Devolução de compra para comercialização em operação com mercadoria sujeita ao regime de substituição tributária
+6412;DEVOLUÇÕES;Devolução de bem do ativo imobilizado, em operação com mercadoria sujeita ao regime de substituição tributária
+6413;DEVOLUÇÕES;Devolução de mercadoria destinada ao uso ou consumo, em operação com mercadoria sujeita ao regime de substituição tributária
+6414;OUTRAS SAIDAS;Remessa de produção do estabelecimento para venda fora do estabelecimento em operação com produto sujeito ao regime de substituição tributária
+6415;OUTRAS SAIDAS;Remessa de mercadoria adquirida ou recebida de terceiros para venda fora do estabelecimento, em operação com mercadoria sujeita ao regime de substituição tributária
+6501;OUTRAS SAIDAS;Remessa de produção do estabelecimento, com fim específico de exportação
+6502;OUTRAS SAIDAS;Remessa de mercadoria adquirida ou recebida de terceiros, com fim específico de exportação
+6503;DEVOLUÇÕES;Devolução de mercadoria recebida com fim específico de exportação
+6504;OUTRAS SAIDAS;Remessa de mercadorias para formação de lote de exportação, de produtos industrializados ou produzidos pelo próprio estabelecimento.
+6505;OUTRAS SAIDAS;Remessa de mercadorias, adquiridas ou recebidas de terceiros, para formação de lote de exportação
+6551;VENDAS;Venda de bem do ativo imobilizado
+6552;TRANSFERÊNCIAS;Transferência de bem do ativo imobilizado
+6553;DEVOLUÇÕES;Devolução de compra de bem para o ativo imobilizado
+6554;OUTRAS SAIDAS;Remessa de bem do ativo imobilizado para uso fora do estabelecimento
+6555;DEVOLUÇÕES;Devolução de bem do ativo imobilizado de terceiro, recebido para uso no estabelecimento
+6556;DEVOLUÇÕES;Devolução de compra de material de uso ou consumo
+6557;TRANSFERÊNCIAS;Transferência de material de uso ou consumo
+6603;OUTRAS SAIDAS;Ressarcimento de ICMS retido por substituição tributária
+6651;VENDAS;Venda de combustível ou lubrificante de produção do estabelecimento destinado à industrialização subseqüente
+6652;VENDAS;Venda de combustível ou lubrificante de produção do estabelecimento destinado à comercialização
+6653;VENDAS;Venda de combustível ou lubrificante de produção do estabelecimento destinado a consumidor ou usuário final
+6654;VENDAS;Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado à industrialização subseqüente
+6655;VENDAS;Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado à comercialização
+6656;VENDAS;Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado a consumidor ou usuário final
+6657;OUTRAS SAIDAS;Remessa de combustível ou lubrificante adquirido ou recebido de terceiros para venda fora do estabelecimento
+6658;TRANSFERÊNCIAS;Transferência de combustível ou lubrificante de produção do estabelecimento 
+6659;TRANSFERÊNCIAS;Transferência de combustível ou lubrificante adquirido ou recebido de terceiro
+6660;DEVOLUÇÕES;Devolução de compra de combustível ou lubrificante adquirido para industrialização subseqüente
+6661;DEVOLUÇÕES;Devolução de compra de combustível ou lubrificante adquirido para comercialização
+6662;DEVOLUÇÕES;Devolução de compra de combustível ou lubrificante adquirido por consumidor ou usuário final
+6663;OUTRAS SAIDAS;Remessa para armazenagem de combustível ou lubrificante
+6664;OUTRAS SAIDAS;Retorno de combustível ou lubrificante recebido para armazenagem
+6665;OUTRAS SAIDAS;Retorno simbólico de combustível ou lubrificante recebido para armazenagem
+6666;OUTRAS SAIDAS;Remessa por conta e ordem de terceiros de combustível ou lubrificante recebido para armazenagem
+6667;VENDAS;Venda de combustível ou lubrificante a consumidor ou usuário final estabelecido em outra unidade da Federação diferente da que ocorrer o consumo
+6901;INDUSTRIALIZAÇÃO;Remessa para industrialização por encomenda
+6902;INDUSTRIALIZAÇÃO;Retorno de mercadoria utilizada na industrialização por encomenda
+6903;INDUSTRIALIZAÇÃO;Retorno de mercadoria recebida para industrialização e não aplicada no referido processo
+6904;OUTRAS SAIDAS;Remessa para venda fora do estabelecimento
+6905;OUTRAS SAIDAS;Remessa para depósito fechado ou armazém geral
+6906;OUTRAS SAIDAS;Retorno de mercadoria depositada em depósito fechado ou armazém geral
+6907;OUTRAS SAIDAS;Retorno simbólico de mercadoria depositada em depósito fechado ou armazém geral
+6908;OUTRAS SAIDAS;Remessa de bem por conta de contrato de comodato
+6909;OUTRAS SAIDAS;Retorno de bem recebido por conta de contrato de comodato
+6910;OUTRAS SAIDAS;Remessa em bonificação, doação ou brinde         ( Não é Receita que só acontecerá com a Venda)
+6911;OUTRAS SAIDAS;Remessa de amostra grátis
+6912;OUTRAS SAIDAS;Remessa de mercadoria ou bem para demonstração
+6913;OUTRAS SAIDAS;Retorno de mercadoria ou bem recebido para demonstração
+6914;OUTRAS SAIDAS;Remessa de mercadoria ou bem para exposição ou feira
+6915;OUTRAS SAIDAS;Remessa de mercadoria ou bem para conserto ou reparo
+6916;OUTRAS SAIDAS;Retorno de mercadoria ou bem recebido para conserto ou reparo
+6917;OUTRAS SAIDAS;Remessa de mercadoria em consignação mercantil ou industrial
+6918;DEVOLUÇÕES;Devolução de mercadoria recebida em consignação mercantil ou industrial
+6919;DEVOLUÇÕES;Devolução simbólica de mercadoria vendida ou utilizada em processo industrial, recebida anteriormente em consignação mercantil ou industrial
+6920;OUTRAS SAIDAS;Remessa de vasilhame ou sacaria
+6921;DEVOLUÇÕES;Devolução de vasilhame ou sacaria
+6922;VENDAS;Lançamento efetuado a título de simples faturamento decorrente de venda para entrega futura
+6923;OUTRAS SAIDAS;Remessa de mercadoria por conta e ordem de terceiros, em venda à ordem
+6924;OUTRAS SAIDAS;Remessa para industrialização por conta e ordem do adquirente da mercadoria, quando esta não transitar pelo estabelecimento do adquirente
+6925;INDUSTRIALIZAÇÃO;Retorno de mercadoria recebida para industrialização por conta e ordem do adquirente da mercadoria, quando aquela não transitar pelo estabelecimento do adquirente
+6929;OUTRAS SAIDAS;Lançamento efetuado em decorrência de emissão de documento fiscal relativo a operação ou prestação também registrada em equipamento Emissor de Cupom Fiscal - ECF
+6931;OUTRAS SAIDAS;Lançamento efetuado em decorrência da responsabilidade de retenção do imposto por substituição tributária, atribuída ao remetente ou alienante da mercadoria, pelo serviço de transporte realizado por transportador autônomo ou por transportador não inscrito na unidade da Federação onde iniciado o serviço
+6932;VENDAS;Prestação de serviço de transporte iniciada em unidade da Federação diversa daquela onde inscrito o prestador
+6933;VENDAS;Prestação de serviço tributado pelo ISSQN
+6949;OUTRAS SAIDAS;Outra saída de mercadoria ou prestação de serviço não especificado
+7101;VENDAS;Venda de produção do estabelecimento
+7102;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros
+7105;VENDAS;Venda de produção do estabelecimento que não deva por ele transitar
+7106;VENDAS;Venda de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar
+7127;VENDAS;Venda de produção do estabelecimento sob o regime de drawback
+7201;DEVOLUÇÕES;Devolução de compra para industrialização ou produção rural
+7202;DEVOLUÇÕES;Devolução de compra para comercialização
+7205;OUTRAS SAIDAS;Anulação de valor relativo a aquisição de serviço de comunicação
+7206;OUTRAS SAIDAS;Anulação de valor relativo a aquisição de serviço de transporte
+7207;OUTRAS SAIDAS;Anulação de valor relativo à compra de energia elétrica
+7210;DEVOLUÇÕES;Devolução de compra para utilização na prestação de serviço
+7211;DEVOLUÇÕES;Devolução de compras para industrialização sob o regime de drawback
+7251;VENDAS;Venda de energia elétrica para distribuição ou comercialização
+7301;VENDAS;Prestação de serviço de comunicação para execução de serviço da mesma natureza
+7358;VENDAS;Prestação de serviço de transporte
+7501;VENDAS;Exportação de mercadorias recebidas com fim específico de exportação
+7551;VENDAS;Venda de bem do ativo imobilizado
+7553;DEVOLUÇÕES;Devolução de compra de bem para o ativo imobilizado
+7556;DEVOLUÇÕES;Devolução de compra de material de uso ou consumo
+7651;VENDAS;Venda de combustível ou lubrificante de produção do estabelecimento destinado à industrialização subseqüente
+7654;VENDAS;Venda de combustível ou lubrificante adquirido ou recebido de terceiros destinado à industrialização subseqüente
+7667;VENDAS;Venda de combustível ou lubrificante a consumidor ou usuário final
+7930;OUTRAS SAIDAS;Lançamento efetuado a título de devolução de bem cuja entrada tenha ocorrido sob amparo de regime especial aduaneiro de admissão temporária
+7949;OUTRAS SAIDAS;Outra saída de mercadoria ou prestação de serviço não especificado
