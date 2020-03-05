@@ -106,7 +106,6 @@ for root,dirs,files in os.walk(directory):
                 # _tratar_espacos(df, file)
                 # _trocar_virg_pont(df, file)
 
-
                 for i in df.index:
                     if df.at[i, "Matrícula"] > 1 and df.at[i, "Nome Beneficiário"] not in dictionary:
                         if df.at[i, "Tipo Benef."] == 'TITULAR':
