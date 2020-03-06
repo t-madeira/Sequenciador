@@ -18,7 +18,9 @@ def _trocar_virg_pont(df, file):
     Funcao para trocar virgulas por pontos
     """
     for i in df.index:
+        # if df.at[i, "Composição de Despesas (R$)"] > 0:
         df.at[i, "Composição de Despesas (R$)"] = str(df.at[i, "Composição de Despesas (R$)"]).replace(",", ".")
+
     df.to_csv("planilhas/"+file, encoding='latin-1', sep=';', index=False)
 
 def _tratar_espacos(df, file):
@@ -44,6 +46,8 @@ def _soma_parcelas (df):
 
 def pega_mensalidade_coparticipacao (df, dictionary):
     linha = 0
+
+    print("tam: ", len(df["Matrícula"]))
     while linha < len(df["Matrícula"]):
         nome = df.at[linha, "Nome Beneficiário"]
         mensalidade = 0
@@ -58,6 +62,7 @@ def pega_mensalidade_coparticipacao (df, dictionary):
             elif df.at[linha, "Unnamed: 7"] == "CO-PARTICIPACAO":
                 coparticipacao += float(df.at[linha, "Composição de Despesas (R$)"])
 
+        # print (linha, "/", len(df["Matrícula"]))
         linha += 1
 
         if linha < len(df["Matrícula"]):
@@ -70,8 +75,13 @@ def pega_mensalidade_coparticipacao (df, dictionary):
                     mensalidade += float(df.at[linha, "Composição de Despesas (R$)"])
                 elif df.at[linha, "Unnamed: 7"] == "CO-PARTICIPACAO":
                     coparticipacao += float(df.at[linha, "Composição de Despesas (R$)"])
+
+                print(linha, "/", len(df["Matrícula"]))
                 linha += 1
 
+        print ("nome: ", nome)
+        print ("mensalidade: ", mensalidade)
+        # print(linha)
         dictionary[nome][0] += mensalidade
         dictionary[nome][1] += coparticipacao
 
@@ -103,8 +113,8 @@ for root,dirs,files in os.walk(directory):
             if file.endswith(".csv"):
                 df = pd.read_csv("planilhas/"+file, encoding='latin-1', sep=';')
 
-                # _tratar_espacos(df, file)
-                # _trocar_virg_pont(df, file)
+                _tratar_espacos(df, file)
+                _trocar_virg_pont(df, file)
 
                 for i in df.index:
                     if df.at[i, "Matrícula"] > 1 and df.at[i, "Nome Beneficiário"] not in dictionary:
