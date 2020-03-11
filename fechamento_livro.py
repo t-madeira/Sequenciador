@@ -34,7 +34,6 @@ def _converte_mes():
     elif str(mes) == "12":
         return "Dez"
 
-
 def _limpar_campo(X,Y):
     # Clique duplo no campo
     mc.double_left_click_at(X, Y)
@@ -392,7 +391,6 @@ def _relatorio_prestados(nome_fiscal, ano, mes, segundos):
     kb.press_this_with_LCTRL("w")
     time.sleep(segundos)
 
-
 def _exportar_notas_fiscais_prestados(nome_contabil, segundos):
     path = "P:\documentos\OneDrive - Novus Contabilidade\Doc Compartilhado\Contábil\\NFSe\\"
     path += nome_contabil
@@ -501,7 +499,6 @@ def  _prestados():
 # Criando a interface Gráfica
 app = gui("The book is on the table")
 app.setFont(10)
-
 
 app.addLabel("label_0_0", "1) Habilitar no Chrome: \"Perguntar onde salvar cada arquivo antes de fazer download\"", row = 0, column = 0)
 
