@@ -19,6 +19,11 @@ def press_this_with_LSHIFT (key):
         keyboard.press(key)
         keyboard.release(key)
 
+def press_this_with_LCTRL (key):
+    with keyboard.pressed(Key.ctrl_l):
+        keyboard.press(key)
+        keyboard.release(key)
+
 
 
 

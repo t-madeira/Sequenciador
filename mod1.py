@@ -10,7 +10,7 @@ def limpar_campo(x,y):
     mc.double_left_click_at(x, y)
     # Apertar Home
     kb.press_this(Key.home)
-    # Apertar End segurando shift507
+    # Apertar End segurando shift
     kb.press_this_with_LSHIFT(Key.end)
 
 def get_ids():

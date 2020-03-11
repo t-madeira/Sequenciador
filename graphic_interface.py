@@ -66,6 +66,30 @@ def stop():
     app.stop()
     _stop = True
 
+def _export():
+    app.thread(_thread_export)
+
+def _import():
+    app.thread(_thread_import)
+    return 0
+
+def _thread_export():
+    nome = app.getEntry("label_3_4")
+    file = open(nome+".txt", "w+")
+    for command in commands_list:
+        file.write(command + "\n")
+    file.close()
+
+def _thread_import():
+    nome_arquivo = app.openBox(title=None, dirName=None, fileTypes=None, asFile=False, parent=None, multiple=False,
+                               mode='r')
+    file = open(nome_arquivo, "r")
+    for row in file:
+        commands_list.append(row)
+        app.addListItem("commands_list", row)
+
+    print(commands_list)
+
 def erase_list():
     app.clearListBox("commands_list", callFunction=True)
     commands_list.clear()
@@ -119,6 +143,11 @@ app.addEntry("label_2_2", row= 2, column = 3)
 app.addButton("Vai, robozin!", start, row=3, column=0)
 app.addButton("Pare, robozin!", stop, row=3, column=1)
 app.addButton("Apagar sequencia", erase_list, row=3, column=2)
+app.addButton("Exportar sequência", _export, row=3, column=3)
+app.addButton("Importar sequência", _import, row=4, column=3)
+
+app.addEntry("label_3_4", row= 3, column = 4)
+app.setEntryDefault("label_3_4", "Nome da sequência")
 
 # start the GUI
 app.go()
