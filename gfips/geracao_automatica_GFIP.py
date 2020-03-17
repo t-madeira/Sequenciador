@@ -1,8 +1,8 @@
-import mouse_controller as mc
-import keyboard_controller as kb
+from controles import mouse_controller as mc
+from controles import keyboard_controller as kb
+from controles import check_screens as cs
+
 from pynput.keyboard import Key
-import pandas as pd
-import check_screens as cs
 import os
 import time
 
@@ -22,7 +22,6 @@ empresas = [4, 7, 11, 13, 24, 34, 47, 57, 63, 82, 86, 87, 89, 112, 119, 178, 227
             819, 767, 822, 826, 827, 829, 830, 834, 836, 837, 843, 845, 850, 851, 854, 858, 860, 861, 863, 862, 865,
             869, 879, 895, 896, 899, 904, 1010, 1012, 1054, 1077, 1081]
 
-directory = os.path.join("P:\documentos\OneDrive - Novus Contabilidade\Doc Compartilhado\Pessoal\Relatórios Sefip")
 dictionary = {}
 path = "P:\documentos\OneDrive - Novus Contabilidade\Doc Compartilhado\Pessoal\Relatórios Sefip"
 
@@ -31,6 +30,7 @@ for x in os.listdir(path):
         if str(empresas[i]) == str(x)[:str(x).find("-")]:
             dictionary[empresas[i]] = str(x)[str(x).find("-")+1:]
 
+print (dictionary)
 time.sleep(2)
 
 for empresa in empresas:

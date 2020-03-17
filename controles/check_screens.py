@@ -73,7 +73,7 @@ def _print_and_save (path_salvar, X1, Y1, X2, Y2):
     imagem_screenshot = pyautogui.screenshot(region=windowRegion)
     imagem_screenshot.save(path_salvar)
 
-time.sleep(2)
-# print_and_save("imgs/GFIP_gerada_sucesso.png", X1=611,Y1=379, X2=826,Y2=523)
+# time.sleep(2)
+# print_and_save("imgs/temp.png", X1=611,Y1=379, X2=826,Y2=523)
 
 # print(_teste_imagens("imgs/GFIP_gerada_sucesso.png", X1=611,Y1=379, X2=826,Y2=523 ))
