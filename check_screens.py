@@ -6,29 +6,6 @@ import cv2
 import matplotlib.pyplot as plt
 import pyautogui
 
-def mse(imageA, imageB):
-    # the 'Mean Squared Error' between the two images is the
-    # sum of the squared difference between the two images;
-    # NOTE: the two images must have the same dimension
-    err = np.sum((imageA.astype("float") - imageB.astype("float")) ** 2)
-    err /= float(imageA.shape[0] * imageA.shape[1])
-
-    # return the MSE, the lower the error, the more "similar"
-    # the two images are
-    return err
-
-def teste_imagens():
-    windowRegion = (624,382,822-624+3,524-382+4)
-    imagem_screenshot = pyautogui.screenshot(region=windowRegion)
-    imagem_screenshot.save("imgs/temp.png")
-    imagem_screenshot = cv2.imread("imgs/temp.png")
-    imagem_erro = cv2.imread("imgs/erro_esteCodigoJaExiste.png")
-
-    imagem_screenshot = cv2.cvtColor(imagem_screenshot, cv2.COLOR_BGR2GRAY)
-    imagem_erro = cv2.cvtColor(imagem_erro, cv2.COLOR_BGR2GRAY)
-
-    return mse(imagem_screenshot, imagem_erro)
-
 def teste_imagens_2():
     windowRegion = (105, 233, 956 - 105 + 1, 718 - 233 + 3)
     imagem_screenshot = pyautogui.screenshot(region=windowRegion)
@@ -68,21 +45,35 @@ def teste_imagens_4():
     plt.imshow(imagem_screenshot)
     return mse(imagem_screenshot, imagem_erro)
 
+def mse(imageA, imageB):
+    # the 'Mean Squared Error' between the two images is the
+    # sum of the squared difference between the two images;
+    # NOTE: the two images must have the same dimension
+    err = np.sum((imageA.astype("float") - imageB.astype("float")) ** 2)
+    err /= float(imageA.shape[0] * imageA.shape[1])
+
+    # return the MSE, the lower the error, the more "similar"
+    # the two images are
+    return err
+
+def _teste_imagens(path_referencia, X1, Y1, X2, Y2):
+    windowRegion = (X1, Y1, X2 - X1, Y2 - Y1)
+    imagem_screenshot = pyautogui.screenshot(region=windowRegion)
+    imagem_screenshot.save("imgs/temp.png")
+    imagem_screenshot = cv2.imread("imgs/temp.png")
+    imagem_erro = cv2.imread(path_referencia)
+
+    imagem_screenshot = cv2.cvtColor(imagem_screenshot, cv2.COLOR_BGR2GRAY)
+    imagem_erro = cv2.cvtColor(imagem_erro, cv2.COLOR_BGR2GRAY)
+
+    return mse(imagem_screenshot, imagem_erro)
+
+def _print_and_save (path_salvar, X1, Y1, X2, Y2):
+    windowRegion = (X1, Y1, X2 - X1, Y2 - Y1)
+    imagem_screenshot = pyautogui.screenshot(region=windowRegion)
+    imagem_screenshot.save(path_salvar)
+
 time.sleep(2)
-print(teste_imagens_4())
-# print(teste_imagens_2())
-#
-# time.sleep(2)
-# windowRegion = (105, 233, 956 - 105, 718 - 233)
-# imagem_screenshot = pyautogui.screenshot(region=windowRegion)
-# imagem_screenshot.save("temp.png")
-# imagem_screenshot = cv2.imread("temp.png")
-# imagem_erro = cv2.imread("aviso.png")
-#
-# imagem_screenshot = cv2.cvtColor(imagem_screenshot, cv2.COLOR_BGR2GRAY)
-# imagem_erro = cv2.cvtColor(imagem_erro, cv2.COLOR_BGR2GRAY)
-#
-# plt.imshow(imagem_screenshot)
-# plt.show()
-# plt.imshow(imagem_erro)
-# plt.show()
+# print_and_save("imgs/GFIP_gerada_sucesso.png", X1=611,Y1=379, X2=826,Y2=523)
+
+# print(_teste_imagens("imgs/GFIP_gerada_sucesso.png", X1=611,Y1=379, X2=826,Y2=523 ))

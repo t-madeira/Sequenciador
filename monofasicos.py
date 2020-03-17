@@ -1,6 +1,7 @@
 import pandas as pd
 from appJar import gui
 import time
+from tqdm import tqdm
 
 def removeFirstOccur(string, char):
     string2 = ''
@@ -54,11 +55,12 @@ def _adicionar_banco_dados():
 
     for relatorio in lista_relatorios:
 
-        df = pd.read_csv(relatorio, encoding='latin-1', sep=';')
+        df = pd.read_excel(relatorio, encoding='latin-1', sep=';')
 
-        for i in df.index:
-            if ( i % 500 == 0):
-                print (i, "/", len(df.index))
+        # for i in :
+        for i in tqdm(df.index):
+            # if ( i % 500 == 0):
+            #     print (i, "/", len(df.index))
 
             try:
                 cfop = int(str(df.at[i, "CFOP"]).replace("-", ""))
@@ -72,39 +74,39 @@ def _adicionar_banco_dados():
 
                 if descricao in base["Descrição"].tolist():
                     aux = base["Descrição"].tolist().index(descricao) # posicao do produto na base
-                    data_base = time.strptime(str(base.at[aux, "Data"]), "%d/%m/%Y")
-                    data_relatorio = time.strptime(str(df.at[i, "Data"]), "%d/%m/%Y")
+                    data_base = time.strptime(str(base.at[aux, "Data"]), "%Y-%m-%d %H:%M:%S")
+                    data_relatorio = time.strptime(str(df.at[i, "Data"]), "%Y-%m-%d %H:%M:%S")
 
                     if data_relatorio > data_base:
 
-                        base.at[aux, "NCMs"] = df.at[i, "Unnamed: 11"][4:15] # pega o ncm
+                        base.at[aux, "NCMs"] = df.at[i, "Unnamed: 12"][4:15] # pega o ncm
                         base.at[aux, "CFOPs"] = round (cfop, 0)
                         base.at[aux, "Descrição"] = descricao
 
-                        if "Produtos Monofásicos" in str(df.at[i, "Unnamed: 11"]):
+                        if "Produtos Monofásicos" in str(df.at[i, "Unnamed: 12"]):
                             base.at[aux, "Monofásico?"] = "Sim"
-                        elif "Produtos Não Monofásicos" in str(df.at[i, "Unnamed: 11"]) :
+                        elif "Produtos Não Monofásicos" in str(df.at[i, "Unnamed: 12"]) :
                             base.at[aux, "Monofásico?"] = "Não"
 
                         base.to_csv("base_monofasicos.csv", encoding='latin-1', sep=';', index=False)
 
 
                 else:
-                    base.at[j, "NCMs"] = df.at[i, "Unnamed: 11"][4:15] # pega o ncm
+                    base.at[j, "NCMs"] = df.at[i, "Unnamed: 12"][4:15] # pega o ncm
                     base.at[j, "CFOPs"] = round (cfop, 0)
                     base.at[j, "Descrição"] = descricao
                     base.at[j, "Data"] = df.at[i, "Data"]
 
-                    if "Produtos Monofásicos" in str(df.at[i, "Unnamed: 11"]):
+                    if "Produtos Monofásicos" in str(df.at[i, "Unnamed: 12"]):
                         base.at[j, "Monofásico?"] = "Sim"
-                    elif "Produtos Não Monofásicos" in str(df.at[i, "Unnamed: 11"]) :
+                    elif "Produtos Não Monofásicos" in str(df.at[i, "Unnamed: 12"]) :
                         base.at[j, "Monofásico?"] = "Não"
 
                     base.to_csv("base_monofasicos.csv", encoding='latin-1', sep=';', index=False)
                     j += 1
 
-            else:
-                print ("Não adicionado: ", descricao)
+            # else:
+            #     print ("Não adicionado: ", descricao)
 
 
     app.infoBox("Concluído", "Todos os itens dos relatorios foram adicionados à base de dados", parent=None)
@@ -126,12 +128,14 @@ def _gerar_planilha_monofasicos():
 
     for relatorio in lista_relatorios:
 
-        df = pd.read_csv(relatorio, encoding='latin-1', sep=';')
+        df = pd.read_excel(relatorio, encoding='latin-1', sep=';')
         df = _virgula_por_ponto(df, "Valor Produto")
 
-        for i in df.index:
-            if ( i % 200 == 0):
-                print (i, "/", len(df.index))
+        # for i in df.index:
+        for i in tqdm(df.index):
+
+            # if ( i % 200 == 0):
+            #     print (i, "/", len(df.index))
 
             try:
                 cfop = int(str(df.at[i, "CFOP"]).replace("-", ""))
@@ -140,7 +144,7 @@ def _gerar_planilha_monofasicos():
 
             descricao = df.at[i, "Descrição"]
             tam = len(base["Descrição"])
-            ncm = df.at[i, "Unnamed: 11"][4:15]  # pega o ncm
+            ncm = df.at[i, "Unnamed: 12"][4:15]  # pega o ncm
 
             if pd.isna(descricao) == False and descricao != "Descrição"\
             and cfop in cfops_vendas and descricao not in base["Descrição"].tolist(): # encontrou uma descricao nova
